@@ -1,0 +1,15 @@
+server:
+    port: 9080
+    context-path:
+
+logging:
+    path: target
+    file: scheduler.log
+    level:
+        tk.mybatis: INFO
+
+spring:
+    datasource:
+        url: jdbc:mysql://rm-uf63m3y2hdqd59kd2.mysql.rds.aliyuncs.com/dnkx_db_01
+        username: dnkx_sys
+        password: dnw#6699XJL
